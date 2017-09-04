@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/sergey/server/test/models/LoginForm.php</file>
+            <file>file:/home/sergey/server/test/views/layouts/main.php</file>
+            <file>file:/home/sergey/server/test/models/Projects.php</file>
+            <file>file:/home/sergey/server/test/migrations/m170821_160559_create_tasks_table.php</file>
+            <file>file:/home/sergey/server/test/config/db.php</file>
+            <file>file:/home/sergey/server/test/views/site/login.php</file>
+            <file>file:/home/sergey/server/test/controllers/SiteController.php</file>
+            <file>file:/home/sergey/server/test/migrations/m170819_134649_create_projects_table.php</file>
+            <file>file:/home/sergey/server/test/migrations/m170812_155456_create_user_table.php</file>
+            <file>file:/home/sergey/server/test/web/js/site.js</file>
+            <file>file:/home/sergey/server/test/views/site/index.php</file>
+            <file>file:/home/sergey/server/test/models/User.php</file>
+            <file>file:/home/sergey/server/test/web/css/site.css</file>
+            <file>file:/home/sergey/server/test/models/SignupForm.php</file>
+            <file>file:/home/sergey/server/test/models/Tasks.php</file>
+        </group>
+    </open-files>
+</project-private>
