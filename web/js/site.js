@@ -66,7 +66,7 @@ $("#pjax-container").on("click",".display-switc >button:first-child", function()
             var x = $(this).parent('div').parent('div').children('input');
             var name = x.val();
             if(name===""){
-                name='You did not enter a name';
+                name='You did\'t write a task message';
             }
             var ob = {
                 id:x.attr('id'),
@@ -143,7 +143,7 @@ $("#pjax-container").on("click",".display-switc >button:nth-child(2)", function(
 $("#pjax-container").on("click",".add-task", function(){
     var value = $(this).parent('div').parent('div').children('input').val();
     if(value===''){
-        value='You did not enter a name';
+        value='You did\'t write a task message';
     }
     var id =$(this).parent('div').parent('div').parent('div').parent('div').children('div').children('div').children('input').attr('id');
     var ob = {

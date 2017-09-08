@@ -59,37 +59,35 @@ use yii\helpers\Url;
                                     <h4 class="modal-title" id="exampleModalLabel">Task editing</h4>
                                 </div>
                                 <div class="modal-body">
-                                    <table border="0">
-                                        <tbody>
-                                            <tr>
-                                                <td><span>Task</span></td>
-                                                <td><input type="text" class="form-control task-modal-value<?= $task->id ?>" value="<?= $task->name ?>"></td>
-                                            </tr>
-                                            <tr>
-                                                <td><span>Deadline</span></td>
-                                                <td>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-5 col-lg-offset-1">
+                                                <span>Task</span>
+                                                <input type="text" class="task-modal-value<?= $task->id ?>" value="<?= $task->name ?>">  
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-5 col-lg-offset-1">            
+                                                <span>Deadline</span>
                                                     <?php if(($task->status)=="done"):  ?>
                                                     <input type="date" class="task-modal-date-1<?= $task->id ?>">
                                                     <?php else:  ?>
                                                     <input type="date" value="<?= $task->status ?>" class="task-modal-date-2<?= $task->id ?>">
                                                     <?php endif; ?>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td><span>Done</span></td>
-                                                <td>
+                                                <span>Done</span>
                                                     <?php if(($task->status)=="done"):  ?>
                                                     <input type="checkbox" class="done-task-modal-1<?= $task->id ?>" id="<?= $task->id ?>" checked>
                                                     <?php else:  ?>
                                                     <input type="checkbox" class="done-task-modal-2<?= $task->id ?>" id="<?= $task->id ?>">
                                                     <?php endif; ?>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary close-modal" data-dismiss="modal">Close</button>
                                     <button type="button" class="btn btn-primary save-modal" id="<?= $task->id ?>">Save</button>
                                 </div>
                             </div>
